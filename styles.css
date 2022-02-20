@@ -47,6 +47,7 @@ form {
 .item {
   border-radius: 30px;
   padding: 10px;
+  text-align: center;
 }
 
 .item1 {
@@ -81,6 +82,8 @@ form {
   border-radius: 30px;
   border-style: solid;
   border-color: white;
+  background: rgb(46, 46, 46);
+  padding: 5%;
 }
 
 #container2 {
@@ -88,7 +91,7 @@ form {
   min-height: 1000px;
   width: 100%;
   display: grid;
-  grid-gap: 2px;
+  grid-gap: 1rem;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
